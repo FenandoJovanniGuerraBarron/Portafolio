@@ -36,7 +36,7 @@ nav{
     padding: 0 1rem;
     position: fixed;
     width: 100%;
-    background-color: #00000030;
+
 }
 
 li{
@@ -53,10 +53,10 @@ li a{
 
 .menu {
     position: fixed;
-    background-color: #00000030;
+    background-color:black;
     left: 0;
     width: 100%;
-    top: 50px;
+    top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,6 +82,7 @@ font-size: 2rem;
 }
 
 .icon__menu {
+    position: fixed;
     cursor: pointer;
     display: inline-block;
     font-size: 2rem;
@@ -112,7 +113,7 @@ font-size: 2rem;
 }
 
 .Home-Presentation p{
-    opacity: 75%;
+    color: var(--color-Gris);
     font-size: 1.7rem;
 }
 
@@ -146,7 +147,7 @@ h2{
 
 .Acerca-de-mi-Text{
     text-align: center;
-    opacity: 75%;
+    color: var(--color-Gris);
     line-height: 1.6rem;
     padding: 0 2rem;
 }
